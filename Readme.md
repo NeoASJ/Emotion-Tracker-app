@@ -198,21 +198,6 @@ My deployed app is available here:
 
 🔗 [https://emotion-recognition-app-684612753531.asia-south1.run.app](https://emotion-recognition-app-684612753531.asia-south1.run.app)
 
-<p>
-  <a href="https://emotion-recognition-app-684612753531.asia-south1.run.app" target="_blank">
-    <button style="
-      background-color:#1f77b4;
-      color:white;
-      border:none;
-      padding:8px 16px;
-      border-radius:6px;
-      cursor:pointer;
-      font-weight:bold;
-    ">Copy URL</button>
-  </a>
-</p>
-
-
 ---
 
 ## ⚙️ <span style="font-size:26px;">GPU Configuration</span>
