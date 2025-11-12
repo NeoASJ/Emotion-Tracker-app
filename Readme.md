@@ -135,9 +135,9 @@ for f in *.mp3; do ffmpeg -i "$f" "${f%.mp3}.wav"; done
 
 | **Model File** | **Dataset** | **Architecture** | **Epochs** | **Input Features** |
 |----------------|--------------|------------------|-------------|--------------------|
-| `emotion_model_ravdess.h5` | RAVDESS | CNN | 150 | MFCC + Chroma |
-| `emotion_model_crema.h5` | CREMA-D | BiLSTM | 100 | MFCC |
-| `emotion_model_emodb.h5` | EMO-DB | CNN + BiLSTM | 120 | MFCC + Spectral |
+| `emotion_model_ravdess.h5` | RAVDESS | CNN | 50 | MFCC + Chroma |
+| `emotion_model_crema.h5` | CREMA-D | BiLSTM | 60 | MFCC |
+| `emotion_model_emodb.h5` | EMO-DB | CNN + BiLSTM | 40 | MFCC + Spectral |
 
 📊 Confusion matrices (`*_confusion_matrix.png`) visualize accuracy for each trained model.
 
