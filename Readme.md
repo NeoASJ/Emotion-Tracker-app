@@ -96,7 +96,7 @@ The final Streamlit app is **Dockerized and deployed on Google Cloud Run**, supp
 
 ---
 
-📚 <span style="font-size:26px;">Dataset Details</span>
+📚 Dataset Details
 
 | **Dataset** | **Samples** | **Emotions** | **Language** | **Notes** |
 |--------------|--------------|---------------|---------------|-----------|
