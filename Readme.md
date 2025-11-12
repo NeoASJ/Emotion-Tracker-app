@@ -24,7 +24,7 @@ The final Streamlit app is **Dockerized and deployed on Google Cloud Run**, supp
 
 ---
 
-## ⚡ <span style="font-size:26px;">Key Highlights</span>
+⚡ <span style="font-size:26px;">Key Highlights</span>
 
 ✅ **High-Fidelity Audio:** Trained exclusively on `.wav` files  
 🔄 **FFmpeg Pipeline:** Converts `.mp3` → `.wav` seamlessly  
@@ -39,7 +39,7 @@ The final Streamlit app is **Dockerized and deployed on Google Cloud Run**, supp
 
 ---
 
-## 🧩 <span style="font-size:26px;">Workflow Overview</span>
+🧩 <span style="font-size:26px;">Workflow Overview</span>
 
 ```
  ┌──────────────────────────────┐
