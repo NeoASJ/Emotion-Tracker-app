@@ -1,0 +1,9 @@
+streamlit==1.12.2
+tensorflow==2.9.1
+numpy==1.23.5
+librosa==0.11.0
+soundfile==0.12.1
+audioread==3.0.0
+protobuf==3.19.6
+packaging==23.2
+altair==4.2.2
