@@ -117,7 +117,11 @@ emodb_df.to_pickle("emodb_features.pkl")
 ## 🎚 <span style="font-size:26px;">Audio Preprocessing</span>
 
 All inputs are **.wav files**. For any `.mp3` data, automatic conversion is performed with **FFmpeg**:
-
+For optimal model accuracy, all input audio files are trimmed using FFmpeg to remove silence and ensure consistent duration. This preprocessing step standardizes the audio before feeding it into the model.
+Example :
+     Trim from 10 sec to 430 sec
+     ```ffmpeg -ss x -to y -i input.wav output_trimmed.wav```
+      x and y refers to timestamp (start to end) in seconds
 ```bash
 for f in *.mp3; do ffmpeg -i "$f" "${f%.mp3}.wav"; done
 ```
